@@ -1,0 +1,36 @@
+body {
+  /* image for background */
+  background-image: url('../images/low_contrast_linen/low_contrast_linen.png');
+
+  /* font parameters */
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 1em;
+
+  /* removes body image around page content (the margins ) */
+  /* margin: 0; */
+  /* ensures that entire web page is filled with context */
+  /* height: 100%; */
+
+  /* creates a flex container and a child container of each contained element, each contain aligns next to the previous in this case in a column*/
+  /* TODO learn more about this: https://developer.mozilla.org/en-US/docs/Web/CSS/CSS_Flexible_Box_Layout/Basic_Concepts_of_Flexbox */
+  /* display: flex; */
+  /* flex-direction: column; */
+}
+
+.navbar-brand {
+  background-color: #4aaaa5;
+  padding: 10px;
+  font-size: 30px;
+  color: #fff !important;
+}
+
+.nav-link {
+  text-decoration: none;
+  color: #777 !important;
+}
+
+/* Change the color of links on hover */
+.nav-link :hover {
+  background-color: #4Cabc2 !important;
+  color: #fff !important;
+}
