@@ -23,12 +23,11 @@ body {
   border-bottom-color: #ccc;
 }
 
-
 .navbar-brand {
   background-color: #4aaaa5;
   padding: 10px;
   font-size: 30px;
-  color: #fff !important;
+  color: #fff !important; /* TODO can we do this without the !important */
 }
 
 .nav-link {
@@ -37,7 +36,13 @@ body {
 }
 
 /* Change the color of links on hover */
-.nav-link :hover {
+.nav-link:hover {
   background-color: #4Cabc2 !important;
   color: #fff !important;
+}
+
+/* this is not working */
+.nav-link:after { 
+  border-right: solid 1px;
+  border-right-color: #c7c7c7;
 }
