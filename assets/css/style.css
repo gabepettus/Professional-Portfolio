@@ -6,10 +6,8 @@ body {
   font-family: Arial, Helvetica, sans-serif;
   font-size: 1em;
 
-  /* removes body image around page content (the margins ) */
-  /* margin: 0; */
-  /* ensures that entire web page is filled with context */
-  /* height: 100%; */
+  /* added padding to prevent navbar overlap. 50px (interweb says thats the navbar default) */
+  padding: 100px;
 }
 
  
