@@ -10,10 +10,15 @@ body {
   padding-top: 100px;
 }
 
- 
+
 .navbar {
+  /* pulls everything down to push up against bottom border */
   padding-bottom: 0;
+
+  /* allows ??? to control the horizontal position */
   padding-left: 0;
+
+  /* creates solid line for the bottom border  */
   border-bottom: solid;
   border-bottom-color: #ccc;
 }
@@ -59,7 +64,6 @@ li:last-child {
 
 .container {
   margin: 0;
-  padding: 10px;
   width: 100%;
   /* padding-left: 5%; */
   /* padding-right: 5%; */
@@ -67,18 +71,18 @@ li:last-child {
 
 #details {
   background-color: #fff;  
-  /* margin-top: 20px; */
-  margin-top: 5%;
-  /* padding: 20px; */
+  margin-top: 20px;
+  /* margin-top: 5%; */
+  padding: 20px;
 }
 
 .footer {
   /* set text properties */
   background-color: #666;
-
+  
   /* sets height of footer*/
   height: 10%;
-
+  
   /* sets properties for footer border*/
   border-top: solid;
   border-top-color: #4aaaa5;
@@ -90,4 +94,11 @@ li:last-child {
   text-align: center;
   font-size: 10px;
   color:#fff; 
+}
+
+@media (max-width: 768px) {
+  .container-fluid {
+    padding-left: 0;
+    padding-right: 0;
+  }
 }
