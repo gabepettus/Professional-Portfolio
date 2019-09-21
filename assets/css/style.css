@@ -66,10 +66,20 @@ li:last-child {
   background-color: #fff;  
   /* provides spacing between the top and bottom nav bars and the content */
   margin-top: 20px;
-  margin-bottom: 20px;
+  margin-bottom: 80px;
 
   /* provide spaceing around the text */
   padding: 20px;
+} 
+
+#bio-image {
+  float: left;
+  padding-right: 1em;
+  padding-top: 0.25em;
+}
+
+input, textarea {
+  width: 100%;
 }
 
 .footer {
