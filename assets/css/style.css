@@ -7,7 +7,7 @@ body {
   font-size: 1em;
 
   /* added padding to prevent navbar overlap. (100 based on browser inpector of size) */
-  padding-top: 100px;
+  padding-top: 90px;
 }
 
 
@@ -25,7 +25,7 @@ body {
 
 .navbar-brand {
   background-color: #4aaaa5;
-  padding: 20px;
+  padding: 15px;
   font-size: 30px;
   color: #fff !important; /* TODO can we do this without the !important */
 }
@@ -62,17 +62,13 @@ li:last-child {
   border-right-color: #c7c7c7;
 }
 
-.container {
-  margin: 0;
-  width: 100%;
-  /* padding-left: 5%; */
-  /* padding-right: 5%; */
-}
-
 #details {
   background-color: #fff;  
+  /* provides spacing between the top and bottom nav bars and the content */
   margin-top: 20px;
-  /* margin-top: 5%; */
+  margin-bottom: 20px;
+
+  /* provide spaceing around the text */
   padding: 20px;
 }
 
@@ -90,15 +86,51 @@ li:last-child {
 }
 
 .footer-text {
+  /* forces text across the entire screen so it has a center */
   width: 100%;
   text-align: center;
+
   font-size: 10px;
   color:#fff; 
 }
 
+/* media query for screen size to be applied to center text to switch at same time as navbar */
 @media (max-width: 768px) {
   .container-fluid {
+    /* removes paddding on either side */
     padding-left: 0;
     padding-right: 0;
   }
+
+/* removes verticle lines between text */
+  li {
+    border-right: none;
+  }
+}
+
+.product {
+  width: 210px;
+  height: 140px;
+  margin: 10px;
+  float: left;
+}
+
+.image-formatter {
+  width: 100%;
+  height: 100%;
+  position: relative;
+  top: -30px;
+}
+
+.product-label {
+  position: relative;
+  margin: 0;
+  top: 100px;
+  width: 210px;
+  padding: 5px 0;
+  font-size: 20px;
+  background-color: #4aaaa5;
+  z-index: 1;
+  text-align: center;
+  color: #fff;
 }
