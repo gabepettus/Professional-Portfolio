@@ -116,6 +116,11 @@ input, textarea {
   li {
     border-right: none;
   }
+
+/* collapses space between menu options when they stack vertically*/
+  .nav-link{
+    padding: 1px;
+  }
 }
 
 .product {
