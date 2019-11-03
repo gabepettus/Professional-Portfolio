@@ -1,2 +1,3 @@
-# Bootstrap-Portfolio
-This is an rework of my portfolio project using bootstrap
+# Professional-Portfolio
+
+This is my professional portfolio, it showcases some of my recent work.
