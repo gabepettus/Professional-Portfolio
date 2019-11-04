@@ -10,6 +10,10 @@ body {
   padding-top: 90px;
 }
 
+a {
+  text-decoration: none;
+  color: black;
+}
 
 .navbar {
   /* pulls everything down to push up against bottom border */
@@ -20,14 +24,20 @@ body {
 
   /* creates solid line for the bottom border  */
   border-bottom: solid;
-  border-bottom-color: #ccc;
+  /* border-bottom-color: #ccc; */
+  border-bottom-color: #D1CB6F;
+  background-color: #B8C9D1;
 }
 
 .navbar-brand {
-  background-color: #4aaaa5;
+  /* background-color: #4aaaa5; */
+  background-color: #4C7684;
   padding: 15px;
   font-size: 30px;
-  color: #fff !important; /* TODO can we do this without the !important */
+  /* color: #fff !important; TODO can we do this without the !important */
+  /* color: #D1CB6F !important; TODO can we do this without the !important */
+  /* color: #B8C9D1 !important; */
+  color: #fff !important;
 }
 
 li {
@@ -52,7 +62,8 @@ li:last-child {
 /* Change the color of links on hover */
 .nav-link:hover {
   /* question how do i impact these values without using important */
-  background-color: #4Cabc2 !important;
+  /* background-color: #4Cabc2 !important; */
+  background-color: #4C7684 !important;
   color: #fff !important;
 }
 
@@ -63,7 +74,8 @@ li:last-child {
 }
 
 #details {
-  background-color: #fff;  
+  /* background-color: #fff;   */
+  background-color: #B4CBD9;  
   /* provides spacing between the top and bottom nav bars and the content */
   margin-top: 20px;
   margin-bottom: 80px;
@@ -91,7 +103,7 @@ input, textarea {
   
   /* sets properties for footer border*/
   border-top: solid;
-  border-top-color: #4aaaa5;
+  border-top-color: #4C7684;
   border-top-width: 8px;
 }
 
@@ -101,8 +113,9 @@ input, textarea {
   text-align: center;
 
   font-size: 10px;
-  color:#fff; 
+  /* color:#fff;  */
 }
+
 
 /* media query for screen size to be applied to center text to switch at same time as navbar */
 @media (max-width: 768px) {
@@ -144,8 +157,12 @@ input, textarea {
   width: 210px;
   padding: 5px 0;
   font-size: 20px;
-  background-color: #4aaaa5;
+  background-color: #4C7684;
   z-index: 1;
   text-align: center;
   color: #fff;
+}
+
+.center {
+  text-align: center;
 }
