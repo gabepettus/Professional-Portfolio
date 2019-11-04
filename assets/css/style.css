@@ -12,7 +12,7 @@ body {
 
 a {
   text-decoration: none;
-  color: black !important;
+  color: black ;
 }
 
 .navbar {
@@ -75,10 +75,12 @@ li:last-child {
 
 #details {
   /* background-color: #fff;   */
-  background-color: #B4CBD9;  
+  /* background-color: #B4CBD9;   */
+  background-image: linear-gradient(to right,#b4cbd9 0,#76B7DF 100%);
   /* provides spacing between the top and bottom nav bars and the content */
   margin-top: 20px;
   margin-bottom: 80px;
+
 
   /* provide spaceing around the text */
   padding: 20px;
@@ -156,7 +158,7 @@ input, textarea {
   top: 100px;
   width: 210px;
   padding: 5px 0;
-  font-size: 20px;
+  font-size: 10px;
   background-color: #4C7684;
   z-index: 1;
   text-align: center;
